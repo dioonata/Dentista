@@ -5,10 +5,19 @@
  */
 package teste;
 
+import modelo.Agenda;
+
 /**
  *
  * @author tads
  */
 public class TestaAgenda {
+    
+    public static void main(String[] args) {
+        Agenda agenda = new Agenda("2018");
+        System.out.println(agenda);
+    }
+  
+    
     
 }
