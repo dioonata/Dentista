@@ -1,4 +1,4 @@
-package dentista;
+package modelo;
 
 import java.util.Date;
 
@@ -9,12 +9,12 @@ import java.util.Date;
 public class Paciente {
     
     String nome;
-    int endereco;
+    String endereco;
     String telefone;
-    Date dataNascimento;
+    String dataNascimento;
     String profissao;
 
-    public Paciente(String nome, int endereco, String telefone, Date dataNascimento, String profissao) {
+    public Paciente(String nome, String endereco, String telefone, String dataNascimento, String profissao) {
         this.nome = nome;
         this.endereco = endereco;
         this.telefone = telefone;
@@ -31,19 +31,12 @@ public class Paciente {
         this.nome = nome;
     }
     
-    public void verificarPacienteCadastrado(){}
-    public void adicionaPaciente(){}
-    public void obterPaciente(){}
-    public void obterConsulta(){}
-    public void localizacaoPaciente(){}
-    public void cadastrarPaciente(){}
     
-    
-    public int getEndereco() {
+    public String getEndereco() {
         return endereco;
     }
 
-    public void setEndereco(int endereco) {
+    public void setEndereco(String endereco) {
         this.endereco = endereco;
     }
 
@@ -55,11 +48,11 @@ public class Paciente {
         this.telefone = telefone;
     }
 
-    public Date getDataNascimento() {
+    public String getDataNascimento() {
         return dataNascimento;
     }
 
-    public void setDataNascimento(Date dataNascimento) {
+    public void setDataNascimento(String dataNascimento) {
         this.dataNascimento = dataNascimento;
     }
 
