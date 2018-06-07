@@ -1,12 +1,11 @@
 package modelo;
 
-import java.util.Date;
 
 /**
  *
  * @author Dioônata
  */
-public class Horairo {
+public class Horario {
     
     String data;
     String hora;
