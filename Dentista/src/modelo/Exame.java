@@ -6,8 +6,8 @@ package modelo;
  */
 public class Exame {
     
-    String medidaPreventiva;
-    String tipoExame;
+    private String medidaPreventiva;
+    private String tipoExame;
 
     public String getMedidaPreventiva() {
         return medidaPreventiva;

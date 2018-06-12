@@ -4,10 +4,10 @@ package modelo;
  *
  * @author Dioônata
  */
-public class LimpesaRestauracao {
+public class LimpezaRestauracao {
     
-    String materialUsado;
-    String denteTratado;
+    private String materialUsado;
+    private String denteTratado;
 
     public String getMaterialUsado() {
         return materialUsado;

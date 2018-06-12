@@ -6,7 +6,7 @@ package modelo;
  */
 public class Consulta {
     
-    String historico;
+    private String historico;
     
     public void registrarConsulta(){}
     public void recuperarHistoricoConsulta(){}

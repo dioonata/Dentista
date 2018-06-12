@@ -1,6 +1,5 @@
 package modelo;
 
-import java.util.Date;
 
 /**
  *
@@ -8,11 +7,11 @@ import java.util.Date;
  */
 public class Paciente {
     
-    String nome;
-    String endereco;
-    String telefone;
-    String dataNascimento;
-    String profissao;
+    private String nome;
+    private String endereco;
+    private String telefone;
+    private String dataNascimento;
+    private String profissao;
 
     public Paciente(String nome, String endereco, String telefone, String dataNascimento, String profissao) {
         this.nome = nome;

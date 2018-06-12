@@ -7,8 +7,8 @@ package modelo;
  */
 public class Horario {
     
-    String data;
-    String hora;
+    private String data;
+    private String hora;
     
 
     public String getData() {
