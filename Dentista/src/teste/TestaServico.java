@@ -7,6 +7,8 @@ public class TestaServico {
         Servico servico = new Servico();
         
         servico.registrarServico();
+        System.out.println("-----------------------------");
+        servico.verServico();
         
     }
 }

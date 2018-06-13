@@ -15,8 +15,6 @@ public class TestaPaciente {
 
     public static void main(String[] args) {
         
-        Paciente paciente = new Paciente("Dioônata","Rua Alida Pommerening","996725280","13/01/1997","Programador");
-        System.out.println(paciente);
     }
     
 }

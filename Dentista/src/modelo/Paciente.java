@@ -13,15 +13,6 @@ public class Paciente {
     private String dataNascimento;
     private String profissao;
 
-    public Paciente(String nome, String endereco, String telefone, String dataNascimento, String profissao) {
-        this.nome = nome;
-        this.endereco = endereco;
-        this.telefone = telefone;
-        this.dataNascimento = dataNascimento;
-        this.profissao = profissao;
-    }
-
-    
     public String getNome() {
         return nome;
     }
