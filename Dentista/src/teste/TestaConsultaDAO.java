@@ -5,16 +5,10 @@
  */
 package teste;
 
-import modelo.Paciente;
-
 /**
  *
  * @author tads
  */
-public class TestaPaciente {
-
-    public static void main(String[] args) {
-        
-    }
+public class TestaConsultaDAO {
     
 }

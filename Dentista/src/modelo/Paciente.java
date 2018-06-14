@@ -7,6 +7,7 @@ package modelo;
  */
 public class Paciente {
     
+    private Integer idPaciente;
     private String nome;
     private String endereco;
     private String telefone;
@@ -52,6 +53,24 @@ public class Paciente {
 
     public void setProfissao(String profissao) {
         this.profissao = profissao;
+    }
+
+    public Integer getIdPaciente() {
+        return idPaciente;
+    }
+
+    public void setIdPaciente(Integer idPaciente) {
+        this.idPaciente = idPaciente;
+    }
+
+    @Override
+    public String toString() {
+        return "Número do Paciente:" + idPaciente + 
+                "\n Nome: " + nome + 
+                "\n Nndereco: " + endereco + 
+                "\n Telefone: " + telefone + 
+                "\n Data de Nascimento: " + dataNascimento + 
+                "\n Profissão: " + profissao ;
     }
     
     

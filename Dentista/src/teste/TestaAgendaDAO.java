@@ -11,7 +11,7 @@ import modelo.Agenda;
  *
  * @author tads
  */
-public class TestaAgenda {
+public class TestaAgendaDAO {
     
     public static void main(String[] args) {
         Agenda agenda = new Agenda("2018","13/01/1997","12:00");

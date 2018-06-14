@@ -1,23 +1,14 @@
 package modelo;
 
-import dao.ServicoDAO;
-
 /**
  *
  * @author Dioônata
  */
-public class Servico extends ServicoDAO{
+public class Servico {
     
     private String descricao = "Vazio!";
     private Integer preco = 0;
     
-    
-//    Servico(String descricao, Integer preco){
-//        this.descricao = descricao;
-//        this.preco = preco;
-//    }
-    
-
     public String getDescricao() {
         return descricao;
     }
@@ -30,6 +21,12 @@ public class Servico extends ServicoDAO{
     }
     public void setPreco(int preco) {
         this.preco = preco;
+    }
+
+    @Override
+    public String toString() {
+        return " Descricao: " + descricao + "\n"
+             + " Preco: " + preco ;
     }
     
     

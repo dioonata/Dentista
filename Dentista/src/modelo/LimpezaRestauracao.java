@@ -4,7 +4,7 @@ package modelo;
  *
  * @author Dioônata
  */
-public class LimpezaRestauracao {
+public class LimpezaRestauracao extends Servico{
     
     private String materialUsado;
     private String denteTratado;

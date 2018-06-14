@@ -9,6 +9,6 @@ package teste;
  *
  * @author tads
  */
-public class TestaHorario {
+public class TestaHorarioDAO {
     
 }
